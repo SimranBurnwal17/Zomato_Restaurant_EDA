@@ -159,8 +159,7 @@ Based on the analysis, the following opportunities can be explored:
 zomato-restaurant-eda/
 │
 ├── data/
-│   ├── raw/
-│   └── processed/
+│   ├── zomato/
 │
 ├── notebooks/
 │   └── Zomato_EDA_Analysis.ipynb
@@ -169,24 +168,8 @@ zomato-restaurant-eda/
 │   └── business_insights.md
 │
 ├── requirements.txt
-├── .gitignore
 └── README.md
 ```
-
-## 📂 Dataset Information
-
-The project uses a Zomato restaurant dataset containing 9,551 restaurant records and 21 original columns.
-
-The cleaned dataset contains 22 columns after feature transformation.
-
-The original and processed CSV files are hosted externally due to their file sizes.
-
-**Dataset Download:** [Access the dataset on Google Drive](PASTE_YOUR_GOOGLE_DRIVE_LINK_HERE)
-
-### Dataset Files
-
-- `zomato.csv` – Original restaurant dataset.
-- `zomato_clean.csv` – Cleaned and processed dataset.
 
 ## 🚀 How to Run This Project
 
@@ -210,7 +193,7 @@ pip install -r requirements.txt
 
 ### Step 4: Download the dataset
 
-Download the original `zomato.csv` file from the Google Drive link and place it inside:
+Download the original `zomato.csv` file and place it inside:
 
 ```text
 data/raw/
@@ -247,9 +230,3 @@ By analyzing restaurant ratings, pricing, cuisines, customer engagement, and ser
 The analysis highlights how data exploration and visualization can support better business understanding and data-driven decision-making.
 
 ---
-
-**Project:** Zomato Restaurant EDA
-
-**Category:** Data Analytics | Exploratory Data Analysis
-
-**Technologies:** Python | Pandas | Matplotlib | Seaborn
